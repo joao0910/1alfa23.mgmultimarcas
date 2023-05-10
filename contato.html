@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,6 +9,7 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
     <header>
         <section>
@@ -23,98 +25,147 @@
         <nav class="menu">
             <ul>
                 <!-- li*5>a -->
-               <li><a href="index.html">Home</a></li>
-               <li><a href="sobre.html">Sobre</a></li>
-               <li><a href="produtos.html">Produtos</a></li>
-               <li><a href="#financiamento">Financiamento</a></li>
-               <li><a href="contato.html">Contato</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="produtos.html">Produtos</a></li>
+                <li><a href="#financiamento">Financiamento</a></li>
+                <li><a href="contato.html">Contato</a></li>
             </ul>
         </nav>
     </header>
     <div id="main">
         <section class="content">
-            <h3>Dados de contato</h3>
-            <p>(44)988522977<br>
-                contato@falacomigobb.com<br>
-                Rua Minha Rua, 0171 - Centro<br>
-                Nova Olimpia - Pr 
+            <div class="div-50 faleconosco">
+                <h3>FALE COM A NOSSA EQUIPE </h3>
+                <p>(44)988522977 - contato@falacomigobb.com<br>
+                    Rua Minha Rua, 0171 - Centro - Nova Olimpia - Pr
                 </p>
-                <p>
-                    Desenvolvido por <br> Joao Augusto Martins da Silva
-                </p>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14638.393501763032!2d-53.095969267722644!3d-23.474947323813986!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x948d377674db9f39%3A0x9c090e2017c3636d!2sNova%20Ol%C3%ADmpia%2C%20PR%2C%2087490-000!5e0!3m2!1spt-BR!2sbr!4v1681261786384!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <form action="" method="-GET">
+                    <div class="campo">
+
+                        <input type="text" name="nome" id="nome" placeholder="nome">
+
+                    </div>
+                    <div class="campo">
+
+                        <input type="email" name="email" id="email" placeholder="email">
+
+                    </div>
+                    <div class="campo">
+
+
+                        <select name="assunto" id="assunto">
+                            <option>Escolha um assunto</option>
+                            <option value="financiamento">Financiamento</option>
+                            <option value="vendas">Vendas</option>
+                            <option value="reclamacoes">Reclamações</option>
+                            <option value="sugestoes">Sugestões</option>
+                            <option value="gerencia">Gerência</option>
+                        </select>
+
+                    </div>
+                    <div class="campo">
+                        <p>Quando deseja receber nosso retorno</p>
+                        <ul>
+                            <li>
+                                <label for="manha">Manhã
+                                    <input type="radio" name="horario" value="manha" id="manha">
+                                </label>
+                            </li>
+                            <li>
+                                <label for="tarde">Tarde
+                                    <input type="radio" name="horario" value="tarde" id="tarde">
+                                </label>
+                            </li>
+                            <li>
+                                <label for="noite">Noite
+                                    <input type="radio" name="horario" value="noite" id="noite">
+                                </label>
+                            </li>
+                        </ul>
+                    </div>
+                </form>
+            </div>
+
+            <div class="div-50">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14638.393501763032!2d-53.095969267722644!3d-23.474947323813986!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x948d377674db9f39%3A0x9c090e2017c3636d!2sNova%20Ol%C3%ADmpia%2C%20PR%2C%2087490-000!5e0!3m2!1spt-BR!2sbr!4v1681261786384!5m2!1spt-BR!2sbr"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
         </section>
-        </div>
-        
+    </div>
+
     <footer>
         <section>
-        <div class="item contato">
-            <h3>Dados de contato</h3>
-            <p>(44)988522977<br>
-                contato@falacomigobb.com<br>
-                Rua Minha Rua, 0171 - Centro<br>
-                Nova Olimpia - Pr 
+            <div class="item contato">
+                <h3>Dados de contato</h3>
+                <p>(44)988522977<br>
+                    contato@falacomigobb.com<br>
+                    Rua Minha Rua, 0171 - Centro<br>
+                    Nova Olimpia - Pr
                 </p>
                 <p>
                     Desenvolvido por <br> Joao Augusto Martins da Silva
                 </p>
-                
-            </p>
-        </div>
-        <div class="item">
-            <h3>
-                Fale com a gente
-            </h3>
-            <form class="contato">
-                
-                <input type="text" name="nome" placeholder="Insira seu nome">
 
-                <input type="mail" name="e-mail" placeholder="Seu e-mail">
+                </p>
+            </div>
+            <div class="item">
+                <h3>
+                    Fale com a gente
+                </h3>
+                <form class="contato">
 
-                <textarea name="mensagem" placeholder="Sua mensagem"></textarea>
+                    <input type="text" name="nome" placeholder="Insira seu nome">
 
-                <button>Enviar</button>
-            </form>
-        </div>
-        
-        <div class="item">
-            <ul class="menu">
-                
-                   <li><a href="index.html">Home</a></li>
-                   <li><a href="sobre.html">Sobre</a></li>
-                   <li><a href="produtos.html">Produtos</a></li>
-                   <li><a href="#financiamento">Financiamento</a></li>
-                   <li><a href="contato.html">Contato</a></li>
-                 
-            </ul>
-            <h3>Nos siga nas redes socieais</h3>
-            <ul class="social">
-                <li>
-                    <a href="https://www.facebook.com/profile.php?id=100004238708365" target="_blank">
-                        <i class="fa-brands fa-facebook"></i>
+                    <input type="mail" name="e-mail" placeholder="Seu e-mail">
 
-                </a>
-             </li>
+                    <textarea name="mensagem" placeholder="Sua mensagem"></textarea>
 
-             <li>
-                <a href="https://www.instagram.com/" target="_blank">
-                    <i class="fa-brands fa-instagram"></i>
+                    <button>Enviar</button>
+                </form>
+            </div>
 
-            </a>
-         </li>
+            <div class="item">
+                <ul class="menu">
 
-         <li>
-            <a href="https://web.whatsapp.com/" target="_blank">
-                <i class="fa-brands fa-whatsapp"></i>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="sobre.html">Sobre</a></li>
+                    <li><a href="produtos.html">Produtos</a></li>
+                    <li><a href="#financiamento">Financiamento</a></li>
+                    <li><a href="contato.html">Contato</a></li>
 
-        </a>
-     </li>
-            </ul>
-        </div>
-        </section>  
+                </ul>
+                <h3>Nos siga nas redes socieais</h3>
+                <ul class="social">
+                    <li>
+                        <a href="https://www.facebook.com/profile.php?id=100004238708365" target="_blank">
+                            <i class="fa-brands fa-facebook"></i>
+
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="https://www.instagram.com/" target="_blank">
+                            <i class="fa-brands fa-instagram"></i>
+
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="https://web.whatsapp.com/" target="_blank">
+                            <i class="fa-brands fa-whatsapp"></i>
+
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
 
         <script src="https://kit.fontawesome.com/b82f5ae24a.js" crossorigin="anonymous"></script>
 
     </footer>
 </body>
+
 </html>
